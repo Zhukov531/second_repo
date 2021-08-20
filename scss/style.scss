@@ -57,13 +57,29 @@ text-align: left;
     background: #111B47;
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: center;
-color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.btn1:hover{
+    margin-right: 15px;
+    width: 189px;
+    height: 36px;
+    background: transparent;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
 }
 .btn2{
     margin-left: 15px;

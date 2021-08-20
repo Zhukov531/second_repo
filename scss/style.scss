@@ -365,13 +365,14 @@ text-align: left;
     height: 115vh;
     width: 100%;
     background: url(../images/Rectangle.png) no-repeat;
-    background-position: center;
+    background-position: center center;
 }
 .price__content {
     display: flex;
     width: 1110px;
     margin: 0 auto;
     background: url(../images/Path.png) no-repeat;
+    background-position: center center;
     block-size: 100%;
     align-items: center;
     justify-content: center;

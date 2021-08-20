@@ -111,6 +111,7 @@ background: transparent;
     margin: 0 auto;
     width: 1110px;
     align-items: center;
+    justify-content: space-between;
 }
 //Блок с блоками без картинки
 .light__blockf {
@@ -203,8 +204,7 @@ width: auto;
 //Картинка большая справа
 .light__img {
     display: flex;
-    position: absolute;
-    right: 10%;
+    
 
 
 }
@@ -363,7 +363,9 @@ text-align: left;
 
 .price {
     height: 115vh;
-    background: url(../images/Rectangle.png);
+    width: 100%;
+    background: url(../images/Rectangle.png) no-repeat;
+    background-position: center;
 }
 .price__content {
     display: flex;

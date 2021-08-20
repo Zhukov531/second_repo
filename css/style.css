@@ -204,6 +204,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .light__blockf {
@@ -299,8 +302,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  right: 10%;
 }
 
 .img_light {
@@ -484,7 +485,9 @@ body {
 
 .price {
   height: 115vh;
-  background: url(../images/Rectangle.png);
+  width: 100%;
+  background: url(../images/Rectangle.png) no-repeat;
+  background-position: center;
 }
 
 .price__content {
